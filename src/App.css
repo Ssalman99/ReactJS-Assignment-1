@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  font-family: Roboto;
+}
+.top-container {
+  background-color: #3367d6;
+  display: flex;
+  flex: row;
+  height: 10%;
+  padding: 10px;
+}
+
+.app-logo {
+  width: 10%;
+  height: 75%;
+  padding-left: 45px;
+  margin-top: 8px;
+}
+
+.search-container {
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-image {
+  background-color: #2850a7;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  border-style: solid;
+  border-color: #6697ff;
+  height: 90%;
+}
+
+.search-bar {
+  background-color: #2850a7;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  border-style: solid;
+  border-color: #6697ff;
+  height: 90%;
+  width: 600px;
+  font-size: 18px;
+  color: #ececec;
+}
+
+.bottom-container {
+  padding: 3%;
+
+  background-color: #f8fafc;
+  height: 90%;
+  background-size: cover;
+}
+
+.inner-container {
+  background-color: #ffffff;
+
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border-color: #ececec;
+  border-style: solid;
+}
+
+.items-container {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.time {
+  color: #475569;
+  font-weight: bold;
+}
+
+.title {
+  color: #475569;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.domine-name {
+  color: #64748b;
+  margin-left: 15px;
+}
+
+.button {
+  border-style: none;
+  background-color: transparent;
+}
+.image {
+  margin-left: 50px;
+}
+
+.empty-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-element {
+  color: #64748b;
+  font-size: 20px;
+}
